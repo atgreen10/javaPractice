@@ -1,31 +1,30 @@
 import animal.Dog;
+import animal.Cat;
 
 public class Main {
 
     public static void main(String[] args) {
-	// create dog objects
-        Dog dog1 = new Dog("German Shepherd", 16, "Obedient", 300.00);
-        Dog dog2 = new Dog("Corgi", 18, "Quirky", 400);
- //     Dog dog1 = new dog();  use this if we used each individual setter below
+        Dog dog = new Dog("Shepherd", "Obedient", 16, 300.0);
+        Cat cat = new Cat("Ragdoll", "lazy", 14, 1350.0);
 
-/*        call setters
-        dog1.setBreed("German Shepherd");
-        dog1.setLifespan(16);
-        dog1.setBehavior("Obedient");
-        dog1.setPrice(300.00);
+       /* dog.setBreed("Shepherd");
+        cat.setBreed("Ragdoll");
 */
 
-        //call getters
-        System.out.println("Breed: " + dog1.getBreed());
-        System.out.println("Lifespan: " + dog1.getLifespan());
-        System.out.println("Behavior: " + dog1.getBehavior());
-        System.out.println("Price: " + dog1.getPrice());
+        System.out.println(cat.getBreed());
+        System.out.println(cat.getBehavior());
+        System.out.println(cat.getLifespan());
+        System.out.println(cat.getPrice());
+        System.out.println(cat.getSound());
 
-        System.out.println("\n");
+        System.out.println(dog.getBreed());
+        System.out.println(dog.getBehavior());
+        System.out.println(dog.getLifespan());
+        System.out.println(dog.getPrice());
+        System.out.print(dog.getSound());
 
-        System.out.println("Breed: " + dog2.getBreed());
-        System.out.println("Lifespan: " + dog2.getLifespan());
-        System.out.println("Behavior: " + dog2.getBehavior());
-        System.out.println("Price: " + dog2.getPrice());
+
+
     }
+
 }
