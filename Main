@@ -11,17 +11,17 @@ public class Main {
         cat.setBreed("Ragdoll");
 */
 
+        System.out.println(dog.getBreed());
+        System.out.println(dog.getBehavior());
+        System.out.println(dog.getLifespan());
+        System.out.println(dog.getPrice());
+        System.out.println(dog.getSound());
+        
         System.out.println(cat.getBreed());
         System.out.println(cat.getBehavior());
         System.out.println(cat.getLifespan());
         System.out.println(cat.getPrice());
         System.out.println(cat.getSound());
-
-        System.out.println(dog.getBreed());
-        System.out.println(dog.getBehavior());
-        System.out.println(dog.getLifespan());
-        System.out.println(dog.getPrice());
-        System.out.print(dog.getSound());
 
 
 
