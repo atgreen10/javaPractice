@@ -1,0 +1,48 @@
+package animal;
+
+public class Animal {
+    //declare field
+    private String breed, behavior;
+    private int lifespan;
+    //private String behavior;
+    private double price;
+
+    public Animal(String breed, int lifespan, String behavior, double price) {
+        this.breed = breed;
+        this.behavior = behavior;
+        this.lifespan = lifespan;
+        this.price = price;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getBehavior() {
+        return behavior;
+    }
+
+    public void setBehavior(String behavior) {
+        this.behavior = behavior;
+    }
+
+    public int getLifespan() {
+        return lifespan;
+    }
+
+    public void setLifespan(int lifespan) {
+        this.lifespan = lifespan;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+}
